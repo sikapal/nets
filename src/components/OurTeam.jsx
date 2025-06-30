@@ -2,6 +2,7 @@ import React from 'react'
 import team01 from '../assets/team-01.jpeg'
 import team02 from '../assets/team-02.jpg'
 import team03 from '../assets/team-03.jpg'
+import team04 from '../assets/team-04.jpg'
 import { motion } from 'framer-motion'
 
 const OurTeam = () => {
@@ -19,13 +20,24 @@ const OurTeam = () => {
     },
     {
       name: "SIKAPA LUCIEN",
-      title: "Telecommunications Engineer",
+      title: "Cloud and web Engineer",
       image: team01,
       description: "Lucien is among the leading engineers behind our solution and he works deligently with the entire team to motivate and bring them forward ",
       socialLinks: {
-        mail: "https://www-gmail.com/sikapalucien.lucien@gmail.com",
-        linkedIn: "https://www.linkedin.com/in/lucien-sikapa-b8a015149",
+        mail: "sikapalucien.lucien@gmail.com",
+        linkedIn: "https://www.linkedin.com/in/lucien-sikapa-16aa65361",
         github: "https://www.github.com/sikapal"
+      },
+    },
+     {
+      name: "ALIYAH FELIXIA",
+      title: "Administrative and financial officer",
+      image: team04,
+      description: "Aliyah is a rigorous and strategic professional in administrative and financial management. She watches over the financial balance of the enterprise and optimises resources to support its growth",
+      socialLinks: {
+        mail: "aliyahfelixia@gmail.com",
+        linkedIn: "#",
+        github: "#"
       },
     },
     {
